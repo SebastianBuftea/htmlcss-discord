@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  style header */
+
+.intestation{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.div-int{
+    height: 40px;
+    width: 300px;
+    background-color: orange;
+    border: 1px solid black; 
+}
+
+.intestation .div-int:nth-of-type(2){
+    width: 600px;
+}
+
+/* style main */
+#container-info{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(51, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pink{
+    width: 850px;
+    height: 450px;
+    background-color:rgb(255, 0, 247);
+}
+
+/* stile dei container */
+.container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    background-color: rgb(255, 255, 255);
+}
+
+.two{
+    background-color: rgb(155, 155, 155);
+    flex-direction: row-reverse;
+}
+
+.div-image{
+    width: 750px ;
+    height: 600px;
+    background-color: dodgerblue;
+}
+
+.div-text{
+    width: 450px;
+    height: 600px;
+    background-color: pink;
+}
+
+.container-infodownload{
+    width:100%;
+    height:1000px;
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .container-infodownload .div-download{
+    background-color: green;
+    width: 1200px;
+    height: 900px;
+ }
+
+/* stile conteiner footer */
+ .container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;       
+ }
+
+ #one {
+    height: 600px;
+    background-color: rgb(36, 36, 36);
+    flex-direction: row;
+    align-items: center;
+}
+
+ #two{
+    height: 60px;
+    background-color: rgb(36, 36, 36);
+    align-items:flex-end;   
+ }
+
+ .div-column{
+   width: 200px;
+   height: 550px;
+   background-color: aqua;
+   border: 1px solid black;
+ }
+
+ .div-column:nth-of-type(1){
+    width: 400px;
+    background-color: rgb(214, 137, 150);
+ }
+
+ hr{
+    color: aliceblue;
+ }
+
+
+ .div-footer{
+    background-color: aqua;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+ }
+
+ .square{
+    height: 25px;
+    background-color: coral;
+
+ }
+
+ .logo{
+    width: 50px;
+ }
+
+ .bottone{
+    width: 80px;
+ }
