@@ -112,24 +112,13 @@ p{
 .container{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.one{
-    background-color: rgb(255, 255, 255);
-}
-
 .two{
-    background-color: rgb(206, 206, 206);
     flex-direction: row-reverse;
 }
-
 .div-image{
-    width: 750px ;
+    width: 750px;
     height: 600px;
-   
-   
 }
 .item1{
     background-image: url(../img/item1.svg);  
@@ -143,11 +132,11 @@ p{
 }
 
 .item1,.item2,.item3{
-   background-size: contain; 
-   background-repeat: no-repeat; 
-}
-
-.div-text{
+    background-size: contain; 
+    background-repeat: no-repeat; 
+ }
+ 
+.div-text{ 
     width: 450px; 
 }
 
@@ -157,12 +146,12 @@ p{
     justify-content: center;
     align-items: center;
 }
-
- .container-infodownload .div-download{
+.container-infodownload .div-download{
     width: 1200px;
     text-align: center;
     margin-top: 50px;
  }
+
 .star-container{
     width: 1200px;
     margin: 0 auto;
@@ -171,13 +160,15 @@ p{
     flex-direction: column;
     align-items: center;
 }
+
  .star-text{
     background-image: url(../img/stars.svg);
    background-position: left;
     width: 50%;
     line-height: 60px;
-    
+
  }
+
 .star-container> .scarica{
     color: white;
     background-color: rgb(154, 176, 248);
@@ -185,21 +176,22 @@ p{
     margin-top: 20px;
     font-weight: bold;
     margin-bottom: 100px;
-   
+
 }
 
-/* stile conteiner footer */
- .container-footer{
+/*  stile footer */
+.container-footer{
     width: 100%;
     display: flex;
-    justify-content: center;       
+    justify-content: center; 
+    align-items: center;      
  }
 
  #one {
     height: 600px;
     background-color: rgb(36, 36, 36);
     flex-direction: row;
-    align-items: center;
+   
 }
 
  #two{
@@ -208,16 +200,47 @@ p{
     align-items:flex-end;   
  }
 
+
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-li{
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer-li:first-of-type{
+    color: blueviolet;
+    font-size:large;
+}
+
+#bandiera-italia{
+    background-image: url(../img/ita.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+}
+#container-italia{
+    display: flex;
+    justify-content: center;
+}
+strong{
+    align-self: center;
+    padding-left: 10px;
+}
+
+
  .div-column{
    width: 200px;
-   height: 550px;
-   background-color: aqua;
-   border: 1px solid black;
+   align-self: flex-start;
  }
 
  .div-column:nth-of-type(1){
     width: 400px;
-    background-color: rgb(214, 137, 150);
+    
  }
 
  hr{
@@ -226,24 +249,34 @@ p{
 
 
  .div-footer{
-    background-color: aqua;
     width: 1200px;
     height: 50px;
     display: flex;
     justify-content:space-between;
     align-items: center;  
+   
  }
 
  .square{
-    height: 25px;
-    background-color: coral;
+   height: 25px;
+   
 
  }
 
  .logo{
     width: 50px;
+  
  }
 
  .bottone{
     width: 80px;
+ }
+#registrati{
+    color: white;
+    background-color: rgb(154, 176, 248);
+    border-color: rgb(154, 176, 248);
+    height: 35px;
+    width: 70px;
+    border-radius: 50px;
+
  }
