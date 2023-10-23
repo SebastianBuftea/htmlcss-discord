@@ -27,13 +27,14 @@
 }
 
 /* style main */
+
 #container-info{
     width: 100%;
     height: 600px;
-    background-color: rgb(51, 0, 255);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    background-image: url(.img/jumbo.png);
     
 }
 .pink{
@@ -63,7 +64,8 @@
 .div-image{
     width: 750px ;
     height: 600px;
-    background-color: dodgerblue;
+    background-color: dodgerblue; 
+  
 }
 
 .div-text{
