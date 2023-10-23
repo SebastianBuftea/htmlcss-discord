@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 /*  style header */
@@ -23,7 +24,7 @@
     padding-top: 7px;  
 }
 
-button{
+#accedi{
     height: 35px;
     width: 70px;
     border-radius: 50px;
@@ -39,9 +40,7 @@ ul{
     align-items: center; 
     justify-content: space-around;
     font-weight: bold;
-   
 }
-
 
 .intestation .div-int:nth-of-type(2){
     width: 600px;
@@ -52,23 +51,66 @@ ul{
 #container-info{
     width: 100%;
     height: 600px;
-    display: flex;
+     display: flex;
     justify-content: center;
-    align-items: center; 
-    background-image: url(../img/jumbo.png);
-   
-    
+    align-items: center;  
+    flex-direction: column;
+    background-image: url(../img/jumbo.png); 
+    background-size: cover;
 }
-.pink{
-    width: 850px;
-    height: 450px;
-    background-color:rgb(255, 0, 247);
+ .pink{
+   max-width: 850px;
+} 
+
+.color-style{
+    color: white;
+    text-align: center; 
 }
+
+h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+p{
+ font-size: 20px;
+ line-height: 30px;
+ font-weight: bold;
+}
+
+.buttons{
+    margin-top: 25px;
+}
+
+.scarica{
+    width: 200px;
+    border-color: white;
+    margin-right: 10px;
+}
+
+#apriinbrowser{
+    background-color: black;
+    color: white;
+    width: 250px;
+    margin-left: 10px;
+}
+ .scarica, #apriinbrowser{
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: medium;
+}
+ .scarica::before{
+    content: "\2193";
+    margin-right: 10px;
+    font-weight: bold ;
+    font-size: large;
+ }
+
 
 /* stile dei container */
 .container{
     width: 100%;
-    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,37 +121,72 @@ ul{
 }
 
 .two{
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(206, 206, 206);
     flex-direction: row-reverse;
 }
 
 .div-image{
     width: 750px ;
     height: 600px;
-    background-color: dodgerblue; 
-  
+   
+   
+}
+.item1{
+    background-image: url(../img/item1.svg);  
+}
+.item2{
+    background-image: url(../img/item2.svg);  
+}
+
+.item3{
+    background-image: url(../img/item3.svg);  
+}
+
+.item1,.item2,.item3{
+   background-size: contain; 
+   background-repeat: no-repeat; 
 }
 
 .div-text{
-    width: 450px;
-    height: 600px;
-    background-color: pink;
+    width: 450px; 
 }
 
 .container-infodownload{
     width:100%;
-    height:1000px;
-    background-color: rgb(155, 155, 155);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
  .container-infodownload .div-download{
-    background-color: green;
     width: 1200px;
-    height: 900px;
+    text-align: center;
+    margin-top: 50px;
  }
+.star-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+ .star-text{
+    background-image: url(../img/stars.svg);
+   background-position: left;
+    width: 50%;
+    line-height: 60px;
+    
+ }
+.star-container> .scarica{
+    color: white;
+    background-color: rgb(154, 176, 248);
+    border-color: rgb(154, 176, 248);
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 100px;
+   
+}
 
 /* stile conteiner footer */
  .container-footer{
