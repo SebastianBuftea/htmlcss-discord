@@ -94,12 +94,14 @@ p{
     width: 250px;
     margin-left: 10px;
 }
+
  .scarica, #apriinbrowser{
     height: 50px;
     border-radius: 50px;
     font-weight: bold;
     font-size: medium;
 }
+
  .scarica::before{
     content: "\2193";
     margin-right: 10px;
@@ -120,9 +122,11 @@ p{
     width: 750px;
     height: 600px;
 }
+
 .item1{
     background-image: url(../img/item1.svg);  
 }
+
 .item2{
     background-image: url(../img/item2.svg);  
 }
@@ -188,14 +192,13 @@ p{
  }
 
  #one {
-    height: 600px;
+     height: 500px; 
     background-color: rgb(36, 36, 36);
     flex-direction: row;
    
 }
 
  #two{
-    height: 60px;
     background-color: rgb(36, 36, 36);
     align-items:flex-end;   
  }
@@ -223,15 +226,16 @@ p{
     height: 30px;
     display: inline-block;
 }
+
 #container-italia{
     display: flex;
     justify-content: center;
 }
+
 strong{
     align-self: center;
     padding-left: 10px;
 }
-
 
  .div-column{
    width: 200px;
@@ -239,8 +243,7 @@ strong{
  }
 
  .div-column:nth-of-type(1){
-    width: 400px;
-    
+    width: 400px; 
  }
 
  hr{
@@ -253,24 +256,18 @@ strong{
     height: 50px;
     display: flex;
     justify-content:space-between;
-    align-items: center;  
-   
+    align-items: center;   
  }
 
- .square{
-   height: 25px;
-   
-
- }
 
  .logo{
-    width: 50px;
-  
+    width: 50px; 
  }
 
  .bottone{
     width: 80px;
  }
+
 #registrati{
     color: white;
     background-color: rgb(154, 176, 248);
@@ -278,5 +275,4 @@ strong{
     height: 35px;
     width: 70px;
     border-radius: 50px;
-
  }
